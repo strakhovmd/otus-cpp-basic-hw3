@@ -14,7 +14,7 @@
 В качестве "загадывания" используется простой генератор случайных чисел из стандартной библиотеки – std::rand.
 Для ограничения диапазона значения загадываемого числа используется параметр max_value.
 
-# Описание.
+# Описание
 
 NAME: 
     guess_the_number - program that simulates the game "guess the number".
@@ -26,7 +26,8 @@ DESCRIPTION:
     guess_the_number is a game application of "guess the number" game. 
     The program generates a random number using a simple generator from the standard library - std::rand. 
     The program then initiates a dialog session with the user via standard input/output 
-    and prompts the user to enter the username. After that, the program prompts the user to enter a number:
+    and prompts the user to enter the username. 
+    After that, the program prompts the user to enter a number:
     
       1. if the user entered a number less than the generated one, then the program displays the hint "less than";
       2. if the user entered a number greater than the generated one, then the program displays a hint "greater than";
